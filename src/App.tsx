@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGripVertical } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
     <h1 className="text-3xl font-bold underline">
-      Hello world!
+      <FontAwesomeIcon icon={faGripVertical}/>Hello world!
     </h1>
   );
 }
