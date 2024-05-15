@@ -19,8 +19,8 @@ interface Item {
 }
 
 const getColor = (length: number, index: number) => {
-    return (192 + Math.floor(64 / length * (index + 1))).toString(16).padStart(2, '0');
-    // return Math.floor(192 + Math.random() * 64).toString(16).padStart(2, '0');
+    // return (192 + Math.floor(64 / length * (index + 1))).toString(16).padStart(2, '0');
+    return Math.floor(192 + Math.random() * 64).toString(16).padStart(2, '0');
 };
 
 const DragAndDropSort = ({values, insertStyle}: Props) => {

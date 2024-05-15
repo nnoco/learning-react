@@ -17,7 +17,7 @@ const DragAndDropSortPage = () => {
     const [input, setInput] = useState<string>('');
 
     return (
-        <div className="space-y-4">
+        <div className="mt-8 space-y-4">
             <h1 className="text-3xl font-bold underline">Drag and Drop Sort</h1>
 
             <div className="flex space-x-4">
